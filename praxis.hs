@@ -43,7 +43,7 @@ countDigits :: Integer -> Integer -> Integer
 countDigits k c  | k == 0     = c
                  | otherwise = countDigits (k `div` 10) (c+1)
 
--- Sum of all even elements øncreased by three
+-- Sum of all even elements encreased by three
 sumList1 :: [Integer] -> Integer
 sumList1 lst = if null lst then 0 
                else let x = head lst
